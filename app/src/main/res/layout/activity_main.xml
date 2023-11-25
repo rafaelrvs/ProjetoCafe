@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
+    android:background="@color/grayWhite"
 
     >
 <LinearLayout
@@ -13,34 +14,16 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+
     >
 
 
-
-
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/AromaDeMogi"
-        android:fontFamily="sans-serif-black"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Titulo"
-        android:fontFamily="sans-serif-black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="25sp"
-        android:layout_marginTop="25dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        android:background="@drawable/ic_paiterhome"
+        android:layout_marginTop="-150dp"
+        />
 
     <Button
         android:id="@+id/btnLogin"
@@ -50,6 +33,7 @@
         android:layout_marginTop="25dp"
 
         />
+
     <Button
         android:layout_width="250dp"
         android:layout_height="wrap_content"

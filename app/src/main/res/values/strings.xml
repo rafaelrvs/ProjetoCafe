@@ -6,4 +6,7 @@
     <string name="Cadastro">Cadastre-se</string>
     <string name="about">Sobre</string>
     <string name="insta">\@paitercae</string>
+    <string name="Email">Email</string>
+    <string name="FacaLogin">Faça o login</string>
+    <string name="placeholderEmail">Digite seu Email</string>
 </resources>
