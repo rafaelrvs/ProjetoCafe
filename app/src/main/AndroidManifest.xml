@@ -28,6 +28,9 @@
         <activity android:name=".MenuStore">
 
         </activity>
+        <activity android:name=".ActiveCadastro">
+
+        </activity>
     </application>
 
 </manifest>

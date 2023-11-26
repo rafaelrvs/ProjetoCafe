@@ -9,6 +9,7 @@ import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
     private  lateinit var btnLogin:Button
+    private lateinit var btnCadastro:Button
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,11 +18,22 @@ class MainActivity : AppCompatActivity() {
 
 
         btnLogin = findViewById<Button>(R.id.btnLogin)
+        btnCadastro = findViewById<Button>(R.id.btnCadastro)
 
         btnLogin.setOnClickListener {
            val login = Intent(this,ActiveLogin::class.java)
 
             startActivity(login)
+            finish()
+        }
+
+
+
+        btnCadastro.setOnClickListener {
+
+            val cadastro = Intent(this,ActiveCadastro::class.java)
+
+            startActivity(cadastro)
             finish()
         }
 
