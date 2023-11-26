@@ -48,10 +48,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:text="@string/FacaLogin"
+            android:text="@string/FacaoCadastro"
             android:textAlignment="center"
             />
-<!--campo login-->
+        <!--campo Cadastro-->
         <LinearLayout
             android:id="@+id/campoEmail"
             android:layout_width="match_parent"
@@ -88,7 +88,7 @@
 
 
                 <Button
-                    android:id="@+id/btnProsseguir"
+                    android:id="@+id/CadastrobtnProsseguir"
                     android:layout_width="110dp"
                     android:layout_height="wrap_content"
                     android:textSize="10sp"
@@ -97,7 +97,7 @@
 
                     />
                 <Button
-                    android:id="@+id/btnvoltarMenu"
+                    android:id="@+id/cadastroBtnvoltarMenu"
                     android:layout_width="110dp"
                     android:layout_height="wrap_content"
                     android:text="@string/voltar"
@@ -111,59 +111,76 @@
 
         </LinearLayout>
         <!--campo senha-->
-       <LinearLayout
-           android:visibility="gone"
-           android:id="@+id/campoSenha"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:orientation="vertical">
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/campoSenhaCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-           <TextView
-               android:layout_width="match_parent"
-               android:layout_height="48dp"
-               android:text="@string/Senha"
-               android:layout_marginLeft="20dp"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/Senha"
+                android:layout_marginLeft="20dp"
 
-               />
-
-
-           <EditText
-               android:layout_width="300dp"
-               android:layout_height="40dp"
-               android:layout_gravity="center"
-               android:inputType="text"/>
+                />
 
 
-           <LinearLayout
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:gravity="center"
-               android:layout_marginTop="50dp"
-               >
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:inputType="text"/>
 
 
-               <Button
-                   android:id="@+id/continuebtn"
-                   android:layout_width="110dp"
-                   android:layout_height="wrap_content"
-                   android:textSize="10sp"
-                   android:text="@string/Continuar"
-                   style="@style/RoundedButton"
-                   />
-               <Button
-                   android:id="@+id/voltarCampoSenha"
-                   android:layout_width="110dp"
-                   android:layout_height="wrap_content"
-                   android:text="@string/voltar"
-                   android:textSize="10sp"
-                   android:layout_marginLeft="50dp"
-                   style="@style/RoundedButton"
-                   />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/ConnfirmeSenha"
+                android:layout_marginLeft="20dp"
 
-           </LinearLayout>
+                />
 
 
-       </LinearLayout>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:inputType="text"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                >
+
+
+                <Button
+                    android:id="@+id/continuebtnCadastro"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:text="@string/Continuar"
+                    style="@style/RoundedButton"
+                    />
+                <Button
+                    android:id="@+id/voltarCampoSenhaCadastro"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/voltar"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="50dp"
+                    style="@style/RoundedButton"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
 
 
 

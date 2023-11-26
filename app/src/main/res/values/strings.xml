@@ -5,8 +5,16 @@
     <string name="Login">Login</string>
     <string name="Cadastro">Cadastre-se</string>
     <string name="about">Sobre</string>
-    <string name="insta">\@paitercae</string>
+    <string name="insta">\@paitercafe</string>
     <string name="Email">Email</string>
     <string name="FacaLogin">Faça o login</string>
     <string name="placeholderEmail">Digite seu Email</string>
+    <string name="Senha">Senha</string>
+    <string name="prosseguir">Prosseguir</string>
+    <string name="voltar">voltar</string>
+    <string name="Continuar">Continuar</string>
+    <string name="Menu">Menu</string>
+    <string name="adicionarAoCarrinho">Adicionar ao Carrinho</string>
+    <string name="FacaoCadastro">Faça o Cadastro</string>
+    <string name="ConnfirmeSenha">Confirme a Senha</string>
 </resources>

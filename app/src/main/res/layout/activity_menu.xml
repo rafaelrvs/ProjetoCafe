@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuStore"
+    android:orientation="vertical"
+    android:background="@color/grayWhite"
+
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:background="@drawable/img_menu"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Menu"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/paiterColor"
+
+            />
+
+
+        <!-- card -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <!-- card1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                >
+
+
+                <View
+                    android:id="@+id/card01"
+                    android:layout_width="110dp"
+                    android:layout_height="150dp"
+                    android:background="@color/paiterColor"
+
+                    />
+                <View
+                    android:id="@+id/card02"
+                    android:layout_width="110dp"
+                    android:layout_height="150dp"
+                    android:background="@color/paiterColor"
+                    android:layout_marginLeft="15dp"
+
+
+                    />
+                <View
+                    android:id="@+id/card03"
+                    android:layout_width="110dp"
+                    android:layout_height="150dp"
+                    android:background="@color/paiterColor"
+                    android:layout_marginLeft="15dp"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <!--card2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            >
+
+
+            <View
+                android:id="@+id/card04"
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:background="@color/paiterColor"
+
+                />
+            <View
+                android:id="@+id/card05"
+                android:layout_marginLeft="15dp"
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:background="@color/paiterColor"
+
+
+                />
+            <View
+                android:id="@+id/card06"
+                android:layout_marginLeft="15dp"
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:background="@color/paiterColor"/>
+
+
+        </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:layout_marginTop="25dp"
+       >
+
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/adicionarAoCarrinho"
+
+           />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="25dp"
+           android:text="@string/voltar"
+           />
+   </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
