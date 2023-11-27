@@ -1,21 +1,24 @@
 package com.rafael.mycafe
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 
 
 
 class MenuStore : AppCompatActivity(){
-
+    private lateinit var  btnVoltar : Button
     private lateinit var  card01 :View
     private lateinit var  card02 :View
     private lateinit var  card03 :View
     private lateinit var  card04 :View
     private lateinit var  card05 :View
     private lateinit var  card06 :View
+    private lateinit var  btnAdicionarAoCarrinho : Button
     private var rotationDegrees = 0f
     private fun rotateView(view: View, degrees: Float, duration: Long) {
         view.animate().rotationY(degrees).setDuration(duration).start()
@@ -27,7 +30,7 @@ class MenuStore : AppCompatActivity(){
 
 
     @SuppressLint("MissingInflatedId")
-    override fun onCreate(savedInstanceState: Bundle?){
+    override fun onCreate(savedInstanceState: Bundle?) {
 
 
         super.onCreate(savedInstanceState)
@@ -50,13 +53,11 @@ class MenuStore : AppCompatActivity(){
             rotateView(view, rotationDegrees, duration)
 
 
-
         }
         card02.setOnClickListener { view ->
             val duration = 1000L
             rotationDegrees += 180f
             rotateView(view, rotationDegrees, duration)
-
 
 
         }
@@ -67,9 +68,6 @@ class MenuStore : AppCompatActivity(){
             rotateView(view, rotationDegrees, duration)
 
 
-
-
-
         }
         card04.setOnClickListener { view ->
             val duration = 1000L
@@ -77,14 +75,11 @@ class MenuStore : AppCompatActivity(){
             rotateView(view, rotationDegrees, duration)
 
 
-
-
         }
         card05.setOnClickListener { view ->
             val duration = 1000L
             rotationDegrees += 180f
             rotateView(view, rotationDegrees, duration)
-
 
 
         }
@@ -95,11 +90,30 @@ class MenuStore : AppCompatActivity(){
             rotateView(view, rotationDegrees, duration)
 
 
-
-
         }
 
-    }
+        btnVoltar = findViewById(R.id.btnVoltarStore)
 
+        btnAdicionarAoCarrinho = findViewById(R.id.btnAdicionarAoCarrinho)
+
+
+
+        btnAdicionarAoCarrinho.setOnClickListener {
+
+
+            val carrinho = Intent(this, Activeloja::class.java)
+
+            startActivity(carrinho)
+            finish()
+        }
+
+        btnVoltar.setOnClickListener {
+            val menu = Intent(this, MainActivity::class.java)
+
+            startActivity(menu)
+            finish()
+
+        }
+    }
 
 }

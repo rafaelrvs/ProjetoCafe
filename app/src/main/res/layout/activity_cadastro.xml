@@ -46,6 +46,7 @@
 
 
         <TextView
+            android:id="@+id/facaOCadastro"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:text="@string/FacaoCadastro"
@@ -72,6 +73,7 @@
 
 
             <EditText
+                android:id="@+id/inputEmail"
                 android:layout_width="300dp"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
@@ -128,6 +130,7 @@
 
 
             <EditText
+                android:id="@+id/senha"
                 android:layout_width="300dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
@@ -144,6 +147,7 @@
 
 
             <EditText
+                android:id="@+id/confirmarSenha"
                 android:layout_width="300dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"

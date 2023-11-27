@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "909121066208",
+    "project_id": "cafeteriapaiter",
+    "storage_bucket": "cafeteriapaiter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909121066208:android:004ad9d00cd2241f632c85",
+        "android_client_info": {
+          "package_name": "com.rafael.mycafe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKN8gzKU3jjrVf__Mw_djxJJyHmcc4c08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -18,4 +18,7 @@
     <string name="FacaoCadastro">Faça o Cadastro</string>
     <string name="ConnfirmeSenha">Confirme a Senha</string>
     <string name="textoSobre">Desde 2023 trazendo a melhor experiencia em saborizar um bom café, nossa missão é aguçar os paladares de todo Brasil, conquistando e trazendo o melhor serviço para sua satisfalçao, é cafe chama a PaiterCafé.</string>
+    <string name="Remover">Remover</string>
+    <string name="Adicionar">Adicionar</string>
+    <string name="carrinho">Carrinho</string>
 </resources>
