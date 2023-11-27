@@ -31,6 +31,11 @@
         <activity android:name=".ActiveCadastro">
 
         </activity>
+        <activity android:name=".ActiveSobre">
+
+        </activity>
+
+
     </application>
 
 </manifest>
