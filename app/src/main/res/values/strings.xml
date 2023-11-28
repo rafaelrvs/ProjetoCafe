@@ -21,4 +21,6 @@
     <string name="Remover">Remover</string>
     <string name="Adicionar">Adicionar</string>
     <string name="carrinho">Carrinho</string>
+    <string name="ErroSenha">"Digite uma senha com no mínimo 6 caracteres"</string>
+    <string name="ErroEmail">Digite um e-mail válido</string>
 </resources>

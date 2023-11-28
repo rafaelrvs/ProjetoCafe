@@ -4,9 +4,11 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.graphics.Color
 import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
+import com.google.android.material.snackbar.Snackbar
 
 class ActiveLogin : AppCompatActivity(){
 
@@ -58,12 +60,20 @@ class ActiveLogin : AppCompatActivity(){
             finish()
         }
 
-        continuebtn.setOnClickListener {
+        continuebtn.setOnClickListener {view ->
 
-            val menuStore = Intent(this,MenuStore::class.java)
+            if (campoEmail.text.toString().isEmpty() || campoSenha.text.toString().isEmpty()) {
+                val mensagem1 =
+                    Snackbar.make(view, "Preencha todos os campos", Snackbar.LENGTH_SHORT)
+                mensagem1.setBackgroundTint((Color.RED))
+                mensagem1.show()
 
-            startActivity(menuStore)
-            finish()
+
+                val menuStore = Intent(this, MenuStore::class.java)
+
+                startActivity(menuStore)
+                finish()
+            }
         }
     }
 

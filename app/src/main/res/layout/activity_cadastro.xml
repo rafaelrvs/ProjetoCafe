@@ -130,11 +130,13 @@
 
 
             <EditText
-                android:id="@+id/senha"
+                android:id="@+id/senhacadastro"
                 android:layout_width="300dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
-                android:inputType="text"/>
+                android:inputType="text"
+
+                />
 
 
             <TextView
