@@ -17,7 +17,8 @@ class Activeloja : AppCompatActivity() {
     private  lateinit var btnRemover : Button
     private lateinit var textCarrinho :TextView
     private lateinit var btnVoltarStore : Button
-
+    val teste = intent.extras
+    val click = teste?.getString("click")
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

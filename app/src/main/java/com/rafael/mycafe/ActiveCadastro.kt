@@ -139,11 +139,10 @@ class ActiveCadastro:AppCompatActivity(){
         CadastrobtnProsseguir.setOnClickListener {
 
             val email = inputEmail.text.toString().trim()
-            if (email.isEmpty() || !android.utilPatterns.EMAIL_ADDRESS.matcher(email).matches()) {
-                inputEmail.error = "@string/ErroEm"
+            if (email.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                inputEmail.error = "Digite um e-mail válido"
                 return@setOnClickListener
             }
-
 
 
 

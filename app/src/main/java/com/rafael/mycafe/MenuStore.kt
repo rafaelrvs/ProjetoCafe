@@ -46,6 +46,8 @@ class MenuStore : AppCompatActivity(){
         card05 = findViewById(R.id.card05)
         card06 = findViewById(R.id.card06)
 
+
+
         card01.setOnClickListener { view ->
 
             val duration = 1000L
@@ -53,12 +55,15 @@ class MenuStore : AppCompatActivity(){
             rotateView(view, rotationDegrees, duration)
 
 
+
+
+
         }
         card02.setOnClickListener { view ->
+
             val duration = 1000L
             rotationDegrees += 180f
             rotateView(view, rotationDegrees, duration)
-
 
         }
         card03.setOnClickListener { view ->
@@ -70,6 +75,7 @@ class MenuStore : AppCompatActivity(){
 
         }
         card04.setOnClickListener { view ->
+
             val duration = 1000L
             rotationDegrees += 180f
             rotateView(view, rotationDegrees, duration)
@@ -77,6 +83,7 @@ class MenuStore : AppCompatActivity(){
 
         }
         card05.setOnClickListener { view ->
+
             val duration = 1000L
             rotationDegrees += 180f
             rotateView(view, rotationDegrees, duration)
@@ -84,6 +91,7 @@ class MenuStore : AppCompatActivity(){
 
         }
         card06.setOnClickListener { view ->
+
 
             val duration = 1000L
             rotationDegrees += 180f
@@ -102,7 +110,6 @@ class MenuStore : AppCompatActivity(){
 
 
             val carrinho = Intent(this, Activeloja::class.java)
-
             startActivity(carrinho)
             finish()
         }
@@ -114,6 +121,15 @@ class MenuStore : AppCompatActivity(){
             finish()
 
         }
+
+
+
+
+
+
     }
+
+
+
 
 }

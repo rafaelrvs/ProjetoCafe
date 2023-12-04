@@ -55,15 +55,43 @@
                 android:layout_marginTop="25dp"
                 >
 
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
 
-                <View
-                    android:id="@+id/card01"
-                    android:layout_width="110dp"
-                    android:layout_height="150dp"
-                    android:background="@drawable/menucafe"
+    <View
+        android:id="@+id/card01"
+        android:layout_width="110dp"
+        android:layout_height="150dp"
+        android:background="@drawable/menucafe"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Preco01"
+        android:textAlignment="center"
+
+        />
 
 
-                    />
+
+</LinearLayout>
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
                 <View
                     android:id="@+id/card02"
                     android:layout_width="110dp"
@@ -73,6 +101,33 @@
 
 
                     />
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Preco02"
+                        android:textAlignment="center"
+
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
                 <View
                     android:id="@+id/card03"
                     android:layout_width="110dp"
@@ -82,7 +137,21 @@
 
                     />
 
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Preco03"
+                    android:textAlignment="center"
+
+                    />
+
+
+
             </LinearLayout>
+
+
+        </LinearLayout>
 
 
 
@@ -103,6 +172,12 @@
             android:layout_marginTop="25dp"
             >
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
 
             <View
                 android:id="@+id/card04"
@@ -111,6 +186,24 @@
                 android:background="@drawable/capuccino"
 
                 />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Preco04"
+                    android:textAlignment="center"
+
+                    />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
             <View
                 android:id="@+id/card05"
                 android:layout_marginLeft="15dp"
@@ -120,6 +213,30 @@
 
 
                 />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Preco05"
+                android:textAlignment="center"
+
+                />
+
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+
             <View
                 android:id="@+id/card06"
                 android:layout_marginLeft="15dp"
@@ -128,6 +245,17 @@
                 android:background="@drawable/simples"/>
 
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Preco06"
+                    android:textAlignment="center"
+
+                    />
+
+
+
+            </LinearLayout>
         </LinearLayout>
 
 
